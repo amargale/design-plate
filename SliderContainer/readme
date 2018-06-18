@@ -1,0 +1,18 @@
+##How to use?
+
+```
+import SlipperySlider from 'react-slick-slippery';
+
+<SlipperySlider 
+	slickSettings={this.state.slickSettings}
+	slipperyFactor = {9}
+	>
+
+	// ... Slides will go here
+
+</SlipperySlider>
+
+```
+1. ** slickSettings **: is same as react-slick settings
+
+2. ** slipperyFactor **: is how slippery the slider. Smaller the factor, more the slippery
